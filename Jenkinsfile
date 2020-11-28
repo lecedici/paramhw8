@@ -3,7 +3,7 @@ pipeline {
 	stages {
 	stage('Run code') {
 		steps {
-			bat "You choose %choice% level"
+			bat "echo You choose %choice% level"
         	}
 		}
 	}
